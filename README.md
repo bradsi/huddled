@@ -45,5 +45,7 @@ weather icons used: https://packagist.org/packages/codeat3/blade-weather-icons
 
 ## Setup
 1. `composer install`
-2. `php artisan serve`
-3. `php artisan weather:update` (clear cached data and call API, requires page refresh after running)
+2. `cp .env.example .env`
+3. `php artisan key:generate`
+4. `php artisan serve`
+5. `php artisan weather:update` (clear cached data and call API, requires page refresh after running)
